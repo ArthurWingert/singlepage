@@ -1,10 +1,37 @@
 .footer {
   background-color: #413e3f;
   color: #fff;
-  padding: 3em;
+  padding: 1em;
   text-align: center;
+  margin-top: 11px;
+}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.place {
+  display: flex;
+  margin-left: 12px;
 }
 
+.place svg {
+  color: white;
+  margin-top: -2px;
+  width: 25px;
+  height: 25px;
+}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.phone {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 3px;
+}
+
+.phone svg {
+  display: flex;
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
 .social_list {
   display: flex;
   justify-content: center;
@@ -25,10 +52,10 @@
 }
 
 .copy_right {
-  margin-top: 1em;
+  /* margin-top: 1em; */
 }
 
-.copy_right span{
-    font-weight: bold;
-    color: #ffbb33;
+.copy_right span {
+  font-weight: bold;
+  color: #ffbb33;
 }

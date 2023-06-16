@@ -4,7 +4,7 @@
   display: flex;
   /* flex-direction: ; */
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   padding: 2em;
 }
 
@@ -13,7 +13,26 @@
   flex-direction: column;
   align-items: center;
   margin-right: 150px;
-  margin-left: 85px;
+  /* margin-left: 85px; */
+}
+
+.input_div {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.alinhamento{
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+ 
+  width: 55px;
+  margin-top: 2px;
+  
 }
 
 .home_container h1 {
@@ -54,7 +73,7 @@
   display: flex;
   justify-content: space-around;
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 35px;
   background-color: black;
   color: gray;
@@ -73,12 +92,13 @@
 .firstmodal span:nth-child(3) {
   display: flex;
   justify-content: space-around;
-  margin-top: 197px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 191px;
+  font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
-  font-weight: 35;
+  font-weight: 500;
   font-size: 25px;
+  border-radius: 5px;
 }
 
 .containerfirstlist {
@@ -89,7 +109,7 @@
   color: white;
   text-align: center;
   list-style: none;
-  font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -107,7 +127,7 @@
   display: flex;
   justify-content: space-around;
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 35px;
   background-color: black;
   color: white;
@@ -125,12 +145,13 @@
 .secondmodal span:nth-child(3) {
   display: flex;
   justify-content: space-around;
-  margin-top: 132px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 143px;
+  font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
-  font-weight: 35;
+  font-weight: 500;
   font-size: 25px;
+  border-radius: 5px;
 }
 
 .containersecondlist {
@@ -141,8 +162,7 @@
   color: white;
   text-align: center;
   list-style: none;
-  font-family:  Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-  
+  font-family: "Poppins", sans-serif;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -159,7 +179,7 @@
   display: flex;
   justify-content: space-around;
   font-size: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 35px;
   background-color: black;
   color: #e0c17f;
@@ -178,12 +198,13 @@
 .thirdmodal span:nth-child(3) {
   display: flex;
   justify-content: space-around;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: black;
   color: white;
-  margin-top: 45px;
-  font-weight: 35;
+  margin-top: 23px;
+  font-weight: 500;
   font-size: 25px;
+  border-radius: 5px;
 }
 
 .containerthirdlist {
@@ -194,5 +215,9 @@
   color: white;
   text-align: center;
   list-style: none;
-  font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.input {
+  border-radius: 5px;
 }
